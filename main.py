@@ -16,11 +16,15 @@
 # Pass 2 (chosen): the extra beat "and judging me" makes the god feel like
 # a houseguest with opinions — a second laugh that still comes entirely
 # from the same one-word slip, without explaining the joke.
+#
+# Pass 4 (second revision, this session): drop "keeps ...-ing" for present-tense
+# verbs ("sheds", "judges") — tighter rhythm, reads more like a real text
+# someone fired off, and the punchline lands faster.
 
 import os
 import sys
 
-ENTRY = "I just adopted a god from the shelter and he keeps shedding on the couch and judging me."
+ENTRY = "I just adopted a god from the shelter and he sheds on the couch and judges my life choices."
 
 
 def validate(line: str) -> None:
